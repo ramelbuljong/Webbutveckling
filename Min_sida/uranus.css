@@ -1,0 +1,92 @@
+@charset "UTF-8";
+
+body{
+background: rgb(246, 245, 245);
+margin: 0;
+background-image: url(images/uranus.jpg);
+padding: 0;
+background-size: cover;
+font-family: 'Roboto', sans-serif;
+
+}
+
+header{
+    text-align: center;
+    color: white;
+    padding: 0;
+    background: black;
+}
+
+h1{
+    padding: 10px;
+    color: white;
+    font-weight: normal;
+    margin: 0;
+
+}
+
+nav{
+background: #ff6b6b;
+
+}
+nav a{
+background: #fbf9f9;
+color: rgb(9, 0, 0);
+padding: 15px;
+display: inline-flex;
+align-items: center;
+}
+
+
+article{
+    color: white;
+}
+
+aside{
+    margin-left: 20px;
+    width: 40%;
+    padding: 20px;
+    color: white;
+    background: rgba(0, 0, 0, 0);
+}
+
+table{
+    width: 300px;
+    margin: 20px;
+    background: rgba(0, 0, 0, 0);
+    color: white;
+    border: 2px;
+    border-collapse: collapse;
+}
+
+table th, table td{
+
+    border: 1px solid white;
+    padding: 10px;
+}
+
+table th{
+    background: rgba(0, 0, 0, 0);
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

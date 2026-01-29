@@ -1,0 +1,34 @@
+@charset "UTF-8";
+
+header, nav, main, footer{
+    background: black;
+    margin: 7px;
+    color: white;
+}
+
+body{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 3fr;
+    grid-template-areas:
+    "header   header"
+    "nav        main"
+    "footer    footer"
+    ;
+}
+
+header{
+    grid-area: header;
+}
+
+nav{
+    grid-area: nav;
+}
+
+main{
+    grid-area: main;
+}
+
+footer{
+    grid-area: footer;
+}

@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+body{
+background: rgb(246, 245, 245);
+margin: 0;
+background-image: url(images/planeter.jpg);
+padding: 0;
+background-size: cover;
+ font-family: 'Roboto', sans-serif;
+
+
+}
+
+header{
+    text-align: center;
+    color: white;
+    padding: 0;
+    background: black;
+}
+
+h1{
+    padding: 10px;
+    color: white;
+    font-weight: normal;
+    margin: 0;
+
+}
+
+nav{
+background: #333;
+
+}
+nav a{
+background: #444;
+color: red;
+padding: 15px;
+display: inline-flex;
+align-items: center;
+}
+
+
+article{
+    color: white;
+}
+
+aside{
+    margin-left: 20px;
+    width: 40%;
+    padding: 20px;
+    color: white;
+    background: rgba(0, 0, 0, 0);
+    border: 2px solid white;
+    border-radius: 12px;
+    
+}
+
+ul {
+    background: rgba(255, 255, 255, 0.7); 
+    padding: 10px 15px;
+    width: fit-content;
+    border-radius: 8px;
+}
+
+ul li {
+    color: black; 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

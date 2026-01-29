@@ -1,0 +1,16 @@
+@charset "UTF-8";
+
+header{
+    background: darkred;
+    color: white;
+    
+}
+@media (min-width: 700px){
+    div{
+        display:flex;
+    }
+
+    div section{
+        flex: 1;
+    }
+}

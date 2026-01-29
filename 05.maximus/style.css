@@ -1,0 +1,137 @@
+@charset "UTF-8";
+
+body {
+    margin: 0;
+}
+
+header {
+    background: #000000; 
+    color: red;           
+    text-align: center;
+    padding: 40px 0 40px 0; 
+}
+
+h1 {
+    color: purple; 
+    margin: 0 0 10px 0;
+    font-weight: normal;
+}
+
+h3 {
+    margin: 0;
+}
+
+nav {
+    background: #333; 
+}
+
+nav a {
+    background: #444; 
+    color: red;       
+    text-decoration: none;
+    padding: 10px;
+    display: inline-flex;
+    align-items: center;
+}
+
+nav a:hover {
+    background: #555;
+}
+
+main {
+    display: flex;
+}
+
+article {
+    flex: 2;
+    background: #b79f9f;
+}
+
+.art {
+    font-family: verdana;
+    font-size: 10px;
+}
+
+.art span {
+    border: 1px solid rgb(46, 46, 45);
+    padding: 4px;
+    border-radius: 4px;
+}
+
+aside {
+    flex: 1;
+    padding: 10px;
+}
+
+footer {
+    display: flex;
+    background: #333; 
+    padding: 10px;
+}
+
+footer section {
+    flex: 1;
+    color: rgb(101, 19, 242); 
+}
+
+h4 {
+    color: rgb(225, 26, 26); 
+    margin: 0;
+}
+
+footer section p {
+    margin: 4px 0 0 0;
+}
+
+#Tradingchart {
+    background: url('images/Trading chart.png');
+    margin-bottom: 12px;
+}
+
+#Reject {
+    background: url('images/Reject.jpg');
+}
+
+aside div {
+    padding: 110px 10px 10px 10px;
+    background-size: cover;
+}
+
+aside div section {
+    background: rgba(0,0,0,0.6);
+    color: white;
+    padding: 10px;
+}
+
+aside div section h5 {
+    margin: 0;
+    font-size: 15px;
+    font-family: verdana;
+}
+
+aside div section p {
+    margin: 0px;
+    font-size: 15px;
+    font-family: verdana;
+}
+    
+table{
+    border: 2px solid lightgrey;
+    border-collapse: collapse;
+    box-shadow: 10px 10px 10px #666;
+    position: bottom;
+}
+
+td{
+    border: 2px solid lightgrey;
+    padding: 8px;
+}
+
+td:first-child{
+    background-color: darkgrey;
+    color: white;
+}
+
+tr:nth-child(even){
+    background: grey;
+}

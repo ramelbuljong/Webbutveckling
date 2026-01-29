@@ -1,0 +1,75 @@
+@charset "UTF-8";
+section{
+background: darkgrey;
+    margin: 0px;
+}
+
+body{
+    display: grid;
+    padding: 0 20%;
+    height: 100vh;
+    grid-template-columns:1fr 1fr 1fr ;
+    grid-template-areas:
+    "a    b     c"
+    "d    .     e"
+    "f    g     h"
+    "i    k     k"
+    "j    k    k"
+
+
+    }
+
+
+    #a{
+        grid-area:a;
+        background-size: cover;
+        background-image: url(images/a.jpg);
+    }
+    #b{
+        grid-area:b;
+        background-size: cover;
+        background-image: url(images/b.webp);
+    }
+    #c{
+        grid-area:c;
+        background-size: cover;
+        background-image: url(images/c.jpg);
+    }
+    #d{
+        grid-area:d;
+        background-size: cover;
+        background-image: url(images/d.jpg);
+    }
+    #e{
+        grid-area:e;
+        background-size:cover ;
+        background-image: url(images/e.jpg);
+    }
+    #f{
+        grid-area:f;
+        background-size:cover ;
+        background-image: url(images/f.jpg);
+    }
+    #g{
+        grid-area:g;
+        background-size:cover ;
+        background-image: url(images/g.webp);
+    }
+    #h{
+        grid-area:h;
+        background-size: cover;
+        background-image: url(images/h.jpg);
+    }
+    #i{
+        grid-area:i;
+        background-size:cover ;
+        background-image: url(images/i.jpg);
+    }
+    #j{
+        grid-area:j;
+        background-size:cover ;
+        background-image: url(images/j.jpg);
+    }
+
+
+

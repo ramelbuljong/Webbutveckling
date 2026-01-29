@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+section{
+    background: red;
+    margin: 7px;
+    color: white;
+}
+
+body{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-areas: 
+    "A      A"
+    "B       B"
+    "C      C"
+    "D     D"
+    "E     E"
+    ;
+   
+}
+
+Header{
+    grid-area: A;
+}
+
+nav{
+    grid-area: B;
+}
+
+main{
+    grid-area: C;
+}
+
+footer{
+    grid-area: D;
+}
+
+footer{
+    grid-area: E;
+}

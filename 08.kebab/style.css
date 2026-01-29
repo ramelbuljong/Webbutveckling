@@ -1,0 +1,88 @@
+@charset "UTF-8";
+
+
+body {
+    background: rgb(247, 245, 245);
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    padding: 40px;
+    gap: 20px;
+  }
+
+  article {
+    width: 100%;
+    grid-column: 1;
+  }
+
+  h1 {
+    color: darkred;
+    margin-bottom: 20px;
+  }
+
+  aside {
+    grid-column: 2;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    align-self: start;
+  }
+
+  section {
+    margin-bottom: 20px;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    height: 300px;
+  }
+
+  #a {
+    background-image: url(Images/moonlanding.webp);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    display: flex;
+    align-items: flex-end;
+    padding: 20px;
+    color: white;
+  }
+
+  
+  #a h2,
+  #a p {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+    border-radius: 5px;
+  }
+
+  #b {
+    background-image: url(Images/napoleon.webp);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+    color: white;
+  }
+
+  #c {
+    background-image: url(Images/pyramids.webp);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+    color: white;
+  }
+
+  #d {
+    background-image: url(Images/ali.webp);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    padding: 20px;
+    display: flex;
+    align-items: flex-end;
+    color: white;
+  }

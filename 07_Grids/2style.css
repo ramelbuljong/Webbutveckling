@@ -1,0 +1,49 @@
+@charset "UTF-8"; 
+
+
+section{
+    background: rgb(6, 6, 6);
+    background-color: rgb(240, 4, 4);
+    font: 20px verdana;
+    margin: 2px;
+}
+
+body{
+    display: grid;
+    height: 100vh;
+    grid-template-columns: 1fr 1fr;
+grid-template-areas:
+"fungus     chungus"
+"abowo     bomba"
+;
+}
+
+
+#a{
+     grid-area: fungus;
+    background-image: url(Images/bankjob.jpg);
+    background-size: cover;
+}
+
+#b{
+    grid-area: chungus;
+    background-image: url(Images/heat.jpg);
+    background-size: cover;
+}
+
+#c{
+    grid-area: abowo;
+    background-image: url(Images/insideman.jpg);
+    background-size: cover;
+}
+
+#d{
+    grid-area: bomba;
+    background-image: url(Images/rififi.jpg);
+    background-size: cover;
+}
+
+
+
+
+

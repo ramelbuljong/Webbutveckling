@@ -1,0 +1,67 @@
+@charset "UTF-8";
+
+
+body{
+    background: black;
+    color: white;
+    background-image: url(images/saturnus.avif);
+    font-family: 'Roboto', sans-serif;
+    
+    
+    
+}
+
+
+
+h1{
+    color: black;
+    background: orange;
+    text-align: center;
+}
+
+section{
+    display: grid;
+}
+
+figure{
+width: 300px;
+position: fixed;
+text-align: center;
+border: 2px;
+border-radius: 12px;
+padding: 10px;
+background: rgba(0, 0, 0,0);
+bottom: 20px; 
+left: 20px;
+margin: 0;
+
+}
+
+
+figure img{
+    width: 45vh;
+    border-radius: 8px;
+    
+    
+}
+
+figcaption{
+
+    font-size: 14px;
+    margin-top: 8px;
+    color: #f0eaea;
+}
+
+
+section {
+    display: grid;
+}
+
+.planet-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+
+    

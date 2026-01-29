@@ -1,0 +1,17 @@
+article{
+    display:flex;
+    justify-content: space-between;
+    padding: 20px
+}
+
+section{
+    background-color:red;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 10px;
+}
+body{
+    background-color: grey;
+}
